@@ -1,0 +1,131 @@
+/* Footer Styles */
+.footer {
+    background-color: #1A1A3D;
+    color: white;
+    padding: 50px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Footer Container */
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    gap: 40px; /* Adds spacing between sections */
+  }
+  
+  /* Footer Sections */
+  .footer-about {
+    flex: 1;
+    max-width: 350px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer-logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links,
+  .footer-academics,
+  .footer-hours {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .footer-links h3,
+  .footer-academics h3,
+  .footer-hours h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Footer Links */
+  .footer-links ul,
+  .footer-academics ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li,
+  .footer-academics ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  
+  .footer-links ul li a,
+  .footer-academics ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links ul li a:hover,
+  .footer-academics ul li a:hover {
+    color: #f39c12;
+  }
+  
+  /* Social Media Icons */
+  .footer-social {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .footer-social a {
+    background: #3b5998;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    transition: background 0.3s ease;
+  }
+  
+  .footer-social a:hover {
+    background: #f39c12;
+  }
+  
+  /* Work Hours */
+  .footer-hours p {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  /* Footer Bottom Section */
+  .footer-bottom {
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    background: #14142A;
+    font-size: 14px;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 992px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-about,
+    .footer-links,
+    .footer-academics,
+    .footer-hours {
+      max-width: 100%;
+    }
+  
+    .footer-social {
+      justify-content: center;
+    }
+  }
+  
